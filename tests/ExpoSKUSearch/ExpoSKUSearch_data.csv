@@ -1,0 +1,11 @@
+Test Case ID,Enabled,Description,search
+ExpoSKUSearch,1,Entering wrong SKU name ,SKU-
+ExpoSKUSearch,1,Entering existing SKU1,SKU_1_315_220_345
+ExpoSKUSearch,1,Entering existing SKU2,SKU_2_155_180_470
+ExpoSKUSearch,1,Entering existing SKU3,SKU_3_145_95_215
+ExpoSKUSearch,1,Entering existing SKU4,SKU_4_315_180_470
+ExpoSKUSearch,1,Entering existing SKU5,SKU_5_280_185_280
+ExpoSKUSearch,1,Entering existing SKU6,SKU_6_155_180_470
+ExpoSKUSearch,1,Entering existing SKU7,SKU_7_220_145_320
+ExpoSKUSearch,1,Entering existing SKU8,SKU_8_356_305_381
+ExpoSKUSearch,1,Entering existing SKU9,SKU_9_356_305_381

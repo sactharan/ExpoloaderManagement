@@ -1,0 +1,3 @@
+Test Case,Description,Object,Action ,DataColumn,WaitAfter
+MyAccount,Click MyAccount,/html/body/div[1]/div/div/div/header/div/div/div[4]/div/div/div[1]/div,stpClick,,
+MyAccount,Select MyAccount,/html/body/div[3]/div[3]/ul/a,stpClick,,

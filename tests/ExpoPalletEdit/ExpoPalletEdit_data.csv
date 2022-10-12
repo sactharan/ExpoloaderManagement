@@ -1,0 +1,5 @@
+Test Case ID,Enabled,Name,Width,Length,PalletHeight,PalletWeight,MaxWeight
+ExpoPalletEdit,1,Euro pallet ,800,1200,100,1100,1000000
+ExpoPalletEdit,0,Industrial pallet 1,1000,1300,100,1000,1000000
+ExpoPalletEdit,0,Industrial pallet 2,1100,1100,100,1200,1000000
+ExpoPalletEdit,0,Plastic pallet,1200,1200,100,1000,1000000

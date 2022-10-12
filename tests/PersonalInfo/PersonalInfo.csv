@@ -1,0 +1,9 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+PersonalInfo,Enter fullname in the fullname field,"//input[@name=""displayName""]",input,fullname,5000
+PersonalInfo,Enter the Position,"//input[@name=""Position""]",input,position,5000
+PersonalInfo,Enter the Phone,"//input[@name=""phoneNumber""]",input,phone,5000
+PersonalInfo,Enter the Address,"//input[@name=""address""]",input,address,5000
+PersonalInfo,Click on Savechange,/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div/form/div[2]/div[6]/div/button[1],click,,10000
+PersonalInfo,Click on Cancel,/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div/form/div[2]/div[6]/div/button[2],click,,10000
+PersonalInfo,Click on DeleteAccount,/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div/form/div[2]/div[6]/div/button[3],click,,10000
+PersonalInfo,Click Delete,/html/body/div[5]/div/div/div/div[2]/div/div[2]/button[2]/span,click,,10000

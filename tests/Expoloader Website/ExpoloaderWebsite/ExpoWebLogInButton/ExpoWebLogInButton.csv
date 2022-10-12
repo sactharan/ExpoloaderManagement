@@ -1,0 +1,2 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+ExpoWebLogInButton,click log in button in the nav bar,"//a[contains(text(),'Log in')]",click,,

@@ -1,0 +1,6 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+ExpoContainerDeleteAllRecords,click option ,//*[@id='__next']/div/div/div/header/div/div/div[2]/ul/li/div/span,stpClick,,
+ExpoContainerDeleteAllRecords,select   Container,//div[@id='root']/div/div/ul/li[3]/div/span,stpClick,,
+ExpoContainerDeleteAllRecords,click delete all button,//*[@id='__next']/div/div/div/div/div/div[2]/div[4]/button/span,click,,1000
+ExpoContainerDeleteAllRecords,Click yes,//*//button[2]/span,click,,200
+ExpoContainerDeleteAllRecords,verify text in the notification,/html/body/div[6]/div/div/div/div/div/div[1],verifyText,success,200

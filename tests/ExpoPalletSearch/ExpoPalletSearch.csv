@@ -1,0 +1,5 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+ExpoPalletSearch,click on options,/html/body/div[1]/div/div/div/header/div/div/div[2]/ul/li/div/span,stpClick,,
+ExpoPalletSearch,select Pallet,//*[@id='root']/div/div/ul/li[4]/div/span,stpClick,,
+ExpoPalletSearch,Enter name,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[5]/span/input,input,search,
+ExpoPalletSearch,Click close icon,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[5]/span/span,click,,10000

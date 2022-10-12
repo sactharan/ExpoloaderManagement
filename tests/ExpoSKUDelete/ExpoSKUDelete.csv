@@ -1,0 +1,7 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+ExpoSKUDelete,click on options,"//*[@id=""__next""]/div/div/div/header/div/div/div[2]/ul/li/div",stpClick,,
+ExpoSKUDelete,click on container,"//*[@id=""root""]/div/div/ul/li[2]",stpClick,,10000
+ExpoSKUDelete,Click Delete button in the row,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[8]/button/span",stpClick,,5000
+ExpoSKUDelete,click on no button in alert message ,"//span[contains(text(),'No')]",stpClick,,
+ExpoSKUDelete,Click Delete button in the row,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[8]/button/span",click,,5000
+ExpoSKUDelete,click on yes button in alert message ,"//span[contains(text(),'Yes')]",click,,10000

@@ -1,0 +1,5 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+LoginExpo,Enter the Username in the UserName field,"//input[@name=""email""]",input,userName,
+LoginExpo,Enter the Password in the Password field,"//input[@name=""password""]",input,password,
+LoginExpo,Click on Login button,//button[@type='submit'],click,,10000
+LoginExpo,Verify text,ox_mib_SignInIL__errors_table,verifyText,errorMsg,

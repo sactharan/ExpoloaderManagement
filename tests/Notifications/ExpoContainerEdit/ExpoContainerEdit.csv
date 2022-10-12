@@ -1,0 +1,11 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+ExpoContainerEdit,click on options,"//*[@id=""__next""]/div/div/div/header/div/div/div[2]/ul/li/div/span",stpClick,,
+ExpoContainerEdit,select  container,//*[@id='root']/div/div/ul/li[3]/div/span,stpClick,,
+ExpoContainerEdit,click edit button,//*[@id='__next']/div/div/div/div/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[6]/button/span,stpClick,,
+ExpoContainerEdit,Edit Name,"//*[@id=""Container_name""]",input,Name,1000
+ExpoContainerEdit,Edit Width,"//*[@id=""Container_width""]",input,Width,1000
+ExpoContainerEdit,Edit Length,"//*[@id=""Container_length""]",input,Length,1000
+ExpoContainerEdit,Edit Height,"//*[@id=""Container_height""]",input,Height,1000
+ExpoContainerEdit,Edit Max Weight,"//*[@id=""Container_max_weight""]",input,MaxWeight,1000
+ExpoContainerEdit,click edit button,//form[@id='Container']/div[6]/div/div/div/button/span,click,,200
+ExpoContainerEdit,verify text in the notification,/html/body/div[6]/div/div/div/div/div/div[1],verifyText,success,200

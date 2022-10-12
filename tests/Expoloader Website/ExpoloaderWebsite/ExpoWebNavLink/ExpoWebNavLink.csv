@@ -1,0 +1,31 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+ExpoWebNavLink,click price list link in the nav bar,"//a[contains(text(),'Price list')]",click,,10000
+ExpoWebNavLink,click  instructions in the nav bar,"//a[contains(text(),'Instructions')]",click,,10000
+ExpoWebNavLink,click signup and login link,/html/body/div/div[2]/div/section[1]/div/div/div[3]/div/h4[1],click,,10000
+ExpoWebNavLink,click setting up loading space,/html/body/div/div[2]/div/section[1]/div/div/div[3]/div/h4[2],click,,10000
+ExpoWebNavLink,click the logo in the nav bar,"//*[@id=""__next""]/div[1]/div[2]/section/header/div/div[1]/div/div/img",click,,10000
+ExpoWebNavLink,click  FAQ link in the nav bar,"//a[contains(text(),'FAQ')]",click,,10000
+ExpoWebNavLink,click what is expoloader?,/html/body/div/div[2]/div/div/div[1],click,,5000
+ExpoWebNavLink,click what is expoloader? Again,/html/body/div/div[2]/div/div/div[1]/div[1],click,,5000
+ExpoWebNavLink,click Who can use ExpoLoader application?,/html/body/div/div[2]/div/div/div[2],click,,5000
+ExpoWebNavLink,click Who can use ExpoLoader application? Again,/html/body/div/div[2]/div/div/div[2]/div[1],click,,5000
+ExpoWebNavLink,clickHow does the application work?,/html/body/div/div[2]/div/div/div[3],click,,5000
+ExpoWebNavLink,clickexpoloader instruction page link,/html/body/div/div[2]/div/div/div[3]/div[2]/div/p/a,click,,5000
+ExpoWebNavLink,click  FAQ link in the nav bar,"//a[contains(text(),'FAQ')]",click,,10000
+ExpoWebNavLink,clickWhat is the difference between the free trial and premium version of ExpoLoader?,/html/body/div/div[2]/div/div/div[4],click,,5000
+ExpoWebNavLink,clickWhat is the difference between the free trial and premium version of ExpoLoader? Again ,/html/body/div/div[2]/div/div/div[4]/div[1],click,,5000
+ExpoWebNavLink,click Is it possible to download the application on a computer to use it offline?,/html/body/div/div[2]/div/div/div[5],click,,5000
+ExpoWebNavLink,click Is it possible to download the application on a computer to use it offline? Again ,/html/body/div/div[2]/div/div/div[5]/div[1],click,,5000
+ExpoWebNavLink,click Do I need to register to be able to use the application?,/html/body/div/div[2]/div/div/div[6],click,,5000
+ExpoWebNavLink,click Do I need to register to be able to use the application? Again ,/html/body/div/div[2]/div/div/div[6]/div[1],click,,5000
+ExpoWebNavLink,clickIs there a demo version of the program?,/html/body/div/div[2]/div/div/div[7],click,,5000
+ExpoWebNavLink,clickIs there a demo version of the program? Again,/html/body/div/div[2]/div/div/div[7]/div[1],click,,5000
+ExpoWebNavLink,click How much is the application?,/html/body/div/div[2]/div/div/div[8],click,,5000
+ExpoWebNavLink,clickexpoloader price list page link,/html/body/div/div[2]/div/div/div[8]/div[2]/div/p/a,click,,5000
+ExpoWebNavLink,click Contact link in the nav bar,"//a[contains(text(),'Contact')]",click,,10000
+ExpoWebNavLink,click about us link in the nav bar,"//a[contains(text(),'About us')]",click,,10000
+ExpoWebNavLink,click  who we are,/html/body/div/div[3]/div/section[1]/div/div/div[2]/div/div/div/h4[1]/a,click,,10000
+ExpoWebNavLink,click vision and mission,/html/body/div/div[3]/div/section[1]/div/div/div[2]/div/div/div/h4[2]/a,click,,10000
+ExpoWebNavLink,click team,/html/body/div/div[3]/div/section[1]/div/div/div[2]/div/div/div/h4[3]/a,click,,10000
+ExpoWebNavLink,click vacancies link in the nav bar,"//a[contains(text(),'Vacancies')]",click,,10000
+ExpoWebNavLink,click apply now,/html/body/div/div[4]/div/div[1]/div[1]/div/div[2]/div/a,click,,10000

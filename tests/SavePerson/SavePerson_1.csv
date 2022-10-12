@@ -1,0 +1,11 @@
+"Test Case ID","Description","Page Name","Object","Action Keyword","Data Set","Wait after"
+"SavePerson","Navigate to person registration",,"jas.app:id/personreg","stpClick",,
+"SavePerson","Enter the id of person",,"jas.app:id/person_id","input","id",
+"SavePerson","Enter the name of person",,"jas.app:id/person_fName","input","fName",
+"SavePerson","Enter the last name of person",,"jas.app:id/person_lName","input","lName",
+"SavePerson","Enter the other name of person",,"jas.app:id/person_oName","input","oName",
+"SavePerson","Enter the genter of person",,"jas.app:id/string_genter","input","geneter",
+"SavePerson","Enter the nic of person",,"jas.app:id/person_nic","input","nic",
+"SavePerson","Enter the telephone of person",,"jas.app:id/person_telephone","input","telephone",
+"SavePerson","save person",,"jas.app:id/save","click",,1000
+"SavePerson","Verify text",,"jas.app:id/string_txtInfo","verifyText","errorMsg",

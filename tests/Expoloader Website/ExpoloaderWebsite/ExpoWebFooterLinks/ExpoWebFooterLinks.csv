@@ -1,0 +1,7 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+ExpoWebFooterLinks,click privacy policy link,"//*[@id=""__next""]/section[2]/div/div[2]/a",click,,10000
+ExpoWebFooterLinks,click privacy policy generator  link,"//*[@id=""__next""]/div[2]/div/p[3]/a",click,,5000
+ExpoWebFooterLinks,navigate privacy policy,,navigate,url1,10000
+ExpoWebFooterLinks,click terms of service link,/html/body/div/section/div/div[3]/a,click,,10000
+ExpoWebFooterLinks,click terms of service generator link,"//*[@id=""__next""]/div[2]/div/p[3]/a",click,,5000
+ExpoWebFooterLinks,navigate terms of service,,navigate,url2,1000

@@ -1,0 +1,9 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+ExpoWebNavLink,click price list link in the nav bar,"//a[contains(text(),'Price list')]",click,,10000
+ExpoWebNavLink,click  instructions in the nav bar,"//a[contains(text(),'Instructions')]",click,,10000
+ExpoWebNavLink,click the logo in the nav bar,"//*[@id=""__next""]/div[1]/div[2]/section/header/div/div[1]/div/div/img",click,,10000
+ExpoWebNavLink,click  FAQ link in the nav bar,"//a[contains(text(),'FAQ')]",click,,10000
+ExpoWebNavLink,click Contact link in the nav bar,"//a[contains(text(),'Contact')]",click,,10000
+ExpoWebNavLink,click about us link in the nav bar,"//a[contains(text(),'About us')]",click,,10000
+ExpoWebNavLink,click vacancies link in the nav bar,"//a[contains(text(),'Vacancies')]",click,,10000
+ExpoWebNavLink,click log in button in the nav bar,/html/body/div/div[2]/div[2]/section/header/div/div[2]/div[1]/div/div[7]/button/a,click,,10000

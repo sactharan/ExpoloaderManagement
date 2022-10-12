@@ -1,0 +1,3 @@
+"Test Case ID","Runmode","id","fName","lName","oName","geneter","nic","telephone","errorMsg"
+"SavePerson","1","1","name1","lname1","oName1","male","1234667","12398787","NaN"
+"SavePerson","1","2","name2","lname2","oName2","male","11222","12398556","NaN"

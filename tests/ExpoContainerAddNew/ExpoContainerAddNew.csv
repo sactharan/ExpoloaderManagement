@@ -1,0 +1,10 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+ExpoContainerAddNew,click on options,"//*[@id=""__next""]/div/div/div/header/div/div/div[2]/ul/li/div/span",stpClick,,2000
+ExpoContainerAddNew,select containers,//*[@id='root']/div/div/ul/li[3]/div/span,stpClick,,2000
+ExpoContainerAddNew,click add button,//*[@id='__next']/div/div/div/div/div/div[2]/div/button/span,click,,10000
+ExpoContainerAddNew,Add Name,"//*[@id=""Container_name""]",input,Name,2000
+ExpoContainerAddNew,Add Width,"//*[@id=""Container_width""]",input,Width,2000
+ExpoContainerAddNew,Add Length,"//*[@id=""Container_length""]",input,Length,2000
+ExpoContainerAddNew,Add Height,"//*[@id=""Container_height""]",input,Height,2000
+ExpoContainerAddNew,Add Max Weight,"//*[@id=""Container_max_weight""]",input,MaxWeight,2000
+ExpoContainerAddNew,click add button,//*[@id='Container']/div[6]/div/div/div/button/span,click,,10000

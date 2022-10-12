@@ -1,0 +1,16 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+PalletLoading,click on Loading type dropdown,/html/body/div[1]/div/div/div/div[1]/div/div/div[1]/div[1]/div/div/div/div,stpClick,,2000
+PalletLoading,select load type,/html/body/div[5]/div/div/div/div[2]/div[1]/div/div/div[2]/div,stpClick,,2000
+PalletLoading,Click on select container,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[1]/div/div[2]/div/div",stpClick,,2000
+PalletLoading,Select a Container,/html/body/div[6]/div/div/div/div[2]/div[1]/div/div/div[1]/div,stpClick,,2000
+PalletLoading,Click on Palate Type,,clickElement,clickPallet,2000
+PalletLoading,Select Palate Type,,clickElement,selectPalate,2000
+PalletLoading,Click on Add Multi SKU Pallet,,clickElement,clickAddSKU,2000
+PalletLoading,Click on SKU Details,,clickElement,clickRadio,3000
+PalletLoading,Click on select SKU,,clickElement,clickSKU,2000
+PalletLoading,Selecting SKU,,clickElement,sku,10000
+PalletLoading,Click on add button,//button[@class='ant-btn ant-btn-primary'],click,,10000
+PalletLoading,Click view,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[2]/div/div/div[2]/div/table/tbody/tr[2]/td[7]/button,stpClick,,3000
+PalletLoading,click Delete Button,,clickElement,deleteSKU,2000
+PalletLoading,Click Yes,,clickElement,yesDelete,2000
+PalletLoading,click on reset button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[1]/button/span,click,,2000

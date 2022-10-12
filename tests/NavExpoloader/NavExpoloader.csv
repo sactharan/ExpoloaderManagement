@@ -1,0 +1,2 @@
+Test Case,Description,Object,Action ,DataColumn,WaitAfter
+NavExpoloader,Navigate to website,,navigate,url,10000

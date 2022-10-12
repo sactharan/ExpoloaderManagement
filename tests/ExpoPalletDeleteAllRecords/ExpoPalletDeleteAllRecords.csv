@@ -1,0 +1,5 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+ExpoPalletDeleteAllRecords,click on options,/html/body/div[1]/div/div/div/header/div/div/div[2]/ul/li/div/span,click,,5000
+ExpoPalletDeleteAllRecords,select pallets,//*[@id='root']/div/div/ul/li[4]/div/span,click,,5000
+ExpoPalletDeleteAllRecords,click delete button,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[4]/button,click,,5000
+ExpoPalletDeleteAllRecords,click yes button,//button[@class='ant-btn ant-btn-primary ant-btn-sm'],click,,5000

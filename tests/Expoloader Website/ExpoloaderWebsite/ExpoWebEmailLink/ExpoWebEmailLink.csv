@@ -1,0 +1,4 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+ExpoWebEmailLink,click the contact link in the nav bar,"//a[contains(text(),'Contact')]",click,,5000
+ExpoWebEmailLink,click email link in the bottom home page,"//*[@id=""contact""]/div/div[2]/div/div/div[1]/div[1]/div[2]/a",click,,1000
+,,,, ,
