@@ -1,9 +1,9 @@
-Test Case ID,Enabled
-ExpoSKUDelete,1
-ExpoSKUDelete,1
-ExpoSKUDelete,1
-ExpoSKUDelete,1
-ExpoSKUDelete,1
-ExpoSKUDelete,1
-ExpoSKUDelete,1
-ExpoSKUDelete,1
+Test Case ID,Enabled,description
+expoSKUDelete,1,delete SKU 1
+expoSKUDelete,1,delete SKU 2
+expoSKUDelete,1,delete SKU 3
+expoSKUDelete,1,delete SKU 4
+expoSKUDelete,1,delete SKU 5
+expoSKUDelete,1,delete SKU 6
+expoSKUDelete,1,delete SKU 7
+expoSKUDelete,1,delete SKU 8

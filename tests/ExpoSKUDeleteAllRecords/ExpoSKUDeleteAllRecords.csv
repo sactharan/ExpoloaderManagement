@@ -1,7 +1,7 @@
 Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoSKUDeleteAllRecords,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,2000
-ExpoSKUDeleteAllRecords,click on container,"//*[@id=""root""]/div/div/ul/li[2]",stpClick,,10000
-ExpoSKUDeleteAllRecords,Click Delete all record button,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[4]/button/span,stpClick,,5000
-ExpoSKUDeleteAllRecords,click on no button in alert message ,"//span[contains(text(),'No')]",stpClick,,2000
-ExpoSKUDeleteAllRecords,Click Delete button in the row,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[4]/button/span,click,,5000
-ExpoSKUDeleteAllRecords,click on yes button in alert message ,"//span[contains(text(),'Yes')]",click,,10000
+expoSKUDeleteAllRecords,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,2000
+expoSKUDeleteAllRecords,click on container,"//*[@id=""root""]/div/div/ul/li[2]",stpClick,,10000
+expoSKUDeleteAllRecords,Click Delete all record button,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[4]/button/span,stpClick,,5000
+expoSKUDeleteAllRecords,click on no button in alert message ,"//span[contains(text(),'No')]",stpClick,,2000
+expoSKUDeleteAllRecords,Click Delete button in the row,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[4]/button/span,click,,5000
+expoSKUDeleteAllRecords,click on yes button in alert message ,"//span[contains(text(),'Yes')]",click,,10000

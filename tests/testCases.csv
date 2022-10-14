@@ -1,19 +1,19 @@
 Test Case ID,Description,Enabled,Data File (if not specified default file will be searched according to convention),Test Case Parameters
-NavExpo,Navigate to expoloader,0,,breakOnFail:1
+navExpoLoader,Navigate to expoloader,1,,breakOnFail:1
 SignUpExpo,SignUp to expoloader,0,,breakOnFail:1
-EmailVerification,Email verification,1,,breakOnFail:1
+EmailVerification,Email verification,0,,breakOnFail:1
 LoginExpo,Login to expoloader,0,,breakOnFail:1
 ExpoSKUAddNew,Add new sku,0,,breakOnFail:1
 OptionSKU,Select options,0,,breakOnFail:1
 ExpoSKUEdit,Edit sku,0,,breakOnFail:1
 ExpoSKUExportExcel,Export Excel Data,0,,breakOnFail:1
-ExpoSKUSearch,search sku,0,,breakOnFail:1
+expoSKUSearch,search sku,1,,breakOnFail:1
 ExpoContainerAddNew,Add new container,0,,breakOnFail:1
 ExpoContainerEdit,Edit container,0,,breakOnFail:1
 ExpoContainerExportExcel,Export Excel data,0,,breakOnFail:1
 ExpoContainerSearch,Search container,0,,breakOnFail:1
-ExpoPallateAddNew,Add new pallete,0,,breakOnFail:1
-ExpoPalletEdit,Edit pallete,0,,breakOnFail:1
+expoPallateAddNew,Add new pallete,1,,breakOnFail:1
+expoPalletEdit,Edit pallete,1,,breakOnFail:1
 ExpoPalletSearch,search pallete,0,,breakOnFail:1
 ExpoPallateExportExcel,Export Excel data,0,,breakOnFail:1
 FloorLoading,FloorLoading test,0,,breakOnFail:1
@@ -21,7 +21,7 @@ MultiSkuFloorLoading,Multi sku for floor loading,0,,breakOnFail:1
 PalletLoading,pallete laoding,0,,breakOnFail:1
 palletStackMultiItemLoad,Pallete stack multi item loading,0,,breakOnFail:1
 nonStackpalletMultiItemLoad,Non stack pallete multi item loading,0,,breakOnFail:1
-ExpoSKUDelete,Delete sku,0,,breakOnFail:1
-ExpoSKUDeleteAll,Delete All,0,,breakOnFail:1
+expoSKUDelete,Delete sku,1,,breakOnFail:1
+expoSKUDeleteAll,Delete All,1,,breakOnFail:1
 ExpoPalletDelete,Delete pallete,0,,breakOnFail:1
 ExpoContainerDelete,Delete container,0,,breakOnFail:1

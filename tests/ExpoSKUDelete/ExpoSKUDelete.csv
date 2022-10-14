@@ -1,7 +1,7 @@
 Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoSKUDelete,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,
-ExpoSKUDelete,click on container,"//*[@id=""root""]/div/div/ul/li[2]",stpClick,,10000
-ExpoSKUDelete,Click Delete button in the row,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[9]/button/span,stpClick,,5000
-ExpoSKUDelete,click on no button in alert message ,"//span[contains(text(),'No')]",stpClick,,2000
-ExpoSKUDelete,Click Delete button in the row,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[9]/button/span,click,,5000
-ExpoSKUDelete,click on yes button in alert message ,"//span[contains(text(),'Yes')]",click,,10000
+expoSKUDelete,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,
+expoSKUDelete,click on container,"//*[@id=""root""]/div/div/ul/li[2]",stpClick,,10000
+expoSKUDelete,Click Delete button in the row,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[9]/button/span,stpClick,,5000
+expoSKUDelete,click on no button in alert message ,"//span[contains(text(),'No')]",stpClick,,2000
+expoSKUDelete,Click Delete button in the row,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[9]/button/span,click,,5000
+expoSKUDelete,click on yes button in alert message ,"//span[contains(text(),'Yes')]",click,,10000

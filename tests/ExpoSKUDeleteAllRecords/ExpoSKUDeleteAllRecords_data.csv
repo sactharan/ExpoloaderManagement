@@ -1,2 +1,2 @@
-Test Case ID,Enabled
-ExpoSKUDeleteAllRecords,1
+Test Case ID,Enabled,description
+expoSKUDeleteAllRecords,1,delete all records by clicking delete all records button

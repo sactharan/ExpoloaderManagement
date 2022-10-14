@@ -1,5 +1,5 @@
 Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoSKUSearch,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,2000
-ExpoSKUSearch,click on container,"//*[@id=""root""]/div/div/ul/li[2]",stpClick,,10000
-ExpoSKUSearch,enter the SKU Name in the search input field,"//input[@placeholder=""search""]",input,search,2000
-ExpoSKUSearch,click on close button in the search input field,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[5]/span/span",click,,2000
+expoSKUSearch,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,2000
+expoSKUSearch,click on container,"//*[@id=""root""]/div/div/ul/li[2]",stpClick,,10000
+expoSKUSearch,enter the SKU Name in the search input field,"//input[@placeholder=""search""]",input,search,2000
+expoSKUSearch,click on close button in the search input field,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[5]/span/span",click,,2000

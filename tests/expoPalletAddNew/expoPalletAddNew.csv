@@ -1,0 +1,15 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+expoPalletAddNew,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,2000
+expoPalletAddNew,select pallats,/html/body/div[2]/div/div/ul/li[4],stpClick,,10000
+expoPalletAddNew,click add button,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[1]/button/span,click,,5000
+expoPalletAddNew,input Name,"//*[@id=""Pallet_name""]",input,Name,2000
+expoPalletAddNew,input Width,"//*[@id=""Pallet_width""]",input,Width,2000
+expoPalletAddNew,input Length,"//*[@id=""Pallet_length""]",input,Length,2000
+expoPalletAddNew,input Height,"//*[@id=""Pallet_pallet_height""]",input,Height,2000
+expoPalletAddNew,input  Weight,"//*[@id=""Pallet_pallet_weight""]",input,Weight,2000
+expoPalletAddNew,input Max Weight,"//*[@id=""Pallet_max_weight""]",input,MaxWeight,2000
+expoPalletAddNew,click add button,"//*[@type=""submit""]",click,,10000
+expoPalletAddNew,click close model,,clickElement,clickCloseModel,4000
+expoPalletAddNew,verify pallet height (mm) label,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/thead/tr/th[4]/div/span[1],verifyText,PalletHeightLabel,4000
+expoPalletAddNew,verify pallet weight (g) label,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/thead/tr/th[4]/div/span[1],verifyText,PalletWeightLabel,4000
+expoPalletAddNew,verify pallet weight (g) label,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/thead/tr/th[4]/div/span[1],verifyText,MaxWeightLabel,4000

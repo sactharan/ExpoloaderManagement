@@ -1,11 +1,12 @@
 Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoPalletEdit,click on options,/html/body/div[1]/div/div/div/header/div/div/div[2]/ul/li/div/span,stpClick,,
-ExpoPalletEdit,select pallates,//*[@id='root']/div/div/ul/li[4]/div/span,stpClick,,
-ExpoPalletEdit,click edit button,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[7]/button",stpClick,,200
-ExpoPalletEdit,Edit Name,"//*[@id=""Pallet_name""]",input,Name,200
-ExpoPalletEdit,Edit Width,"//*[@id=""Pallet_width""]",input,Width,200
-ExpoPalletEdit,Edit Length,"//*[@id=""Pallet_length""]",input,Length,200
-ExpoPalletEdit,Edit PalletHeight,"//*[@id=""Pallet_pallet_height""]",input,PalletHeight,200
-ExpoPalletEdit,Edit Palletweight,"//*[@id=""Pallet_pallet_weight""]",input,PalletWeight,200
-ExpoPalletEdit,Edit Max Weight,"//*[@id=""Pallet_max_weight""]",input,MaxWeight,200
-ExpoPalletEdit,click edit button,"//*[@id=""Pallet""]/div[7]/div/div/div/button",click,,10000
+expoPalletEdit,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,2000
+expoPalletEdit,select pallets,/html/body/div[2]/div/div/ul/li[4],stpClick,,10000
+expoPalletEdit,click edit button,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[7]/button",click,,2000
+expoPalletEdit,input Name,"//*[@id=""Pallet_name""]",input,Name,2000
+expoPalletEdit,input Width,"//*[@id=""Pallet_width""]",input,Width,2000
+expoPalletEdit,input Length,"//*[@id=""Pallet_length""]",input,Length,2000
+expoPalletEdit,input Height,"//*[@id=""Pallet_pallet_height""]",input,Height,2000
+expoPalletEdit,input  Weight,"//*[@id=""Pallet_pallet_weight""]",input,Weight,2000
+expoPalletEdit,input Max Weight,"//*[@id=""Pallet_max_weight""]",input,MaxWeight,2000
+expoPalletEdit,click add button,"//*[@type=""submit""]",click,,10000
+expoPalletEdit,click close model,,clickElement,clickCloseModel,4000
