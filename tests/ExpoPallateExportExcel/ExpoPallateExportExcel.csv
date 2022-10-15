@@ -1,4 +1,0 @@
-Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoPallateExportExcel,click on options,/html/body/div[1]/div/div/div/header/div/div/div[2]/ul/li/div/span,stpClick,,
-ExpoPallateExportExcel,select pallates,//*[@id='root']/div/div/ul/li[4]/div/span,stpClick,,
-ExpoPallateExportExcel,click import excel data,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[2]/span/div[1]/span/button",click,,
