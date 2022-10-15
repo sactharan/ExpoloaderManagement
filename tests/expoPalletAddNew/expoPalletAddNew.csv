@@ -11,5 +11,5 @@ expoPalletAddNew,input Max Weight,"//*[@id=""Pallet_max_weight""]",input,MaxWeig
 expoPalletAddNew,click add button,"//*[@type=""submit""]",click,,10000
 expoPalletAddNew,click close model,,clickElement,clickCloseModel,4000
 expoPalletAddNew,verify pallet height (mm) label,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/thead/tr/th[4]/div/span[1],verifyText,PalletHeightLabel,4000
-expoPalletAddNew,verify pallet weight (g) label,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/thead/tr/th[4]/div/span[1],verifyText,PalletWeightLabel,4000
-expoPalletAddNew,verify pallet weight (g) label,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/thead/tr/th[4]/div/span[1],verifyText,MaxWeightLabel,4000
+expoPalletAddNew,verify pallet weight (g) label,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/thead/tr/th[5]/div/span[1],verifyText,PalletWeightLabel,4000
+expoPalletAddNew,verify pallet weight (g) label,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/thead/tr/th[6]/div/span[1],verifyText,MaxWeightLabel,4000
