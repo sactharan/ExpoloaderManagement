@@ -1,6 +1,7 @@
 Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoPalletDelete,click on options,/html/body/div[1]/div/div/div/header/div/div/div[2]/ul/li/div/span,stpClick,,
-ExpoPalletDelete,select pallets,//*[@id='root']/div/div/ul/li[4]/div/span,stpClick,,
-ExpoPalletDelete,click on delete button,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[8]/button,click,,10000
-ExpoPalletDelete,click on yes button,//button[@class='ant-btn ant-btn-primary ant-btn-sm'],click,,200
-ExpoPalletDelete,verify text in the notification,/html/body/div[6]/div/div/div/div/div/div[1],verifyText,success,200
+expoPalletDelete,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,2000
+expoPalletDelete,select pallets,//*[@id='root']/div/div/ul/li[4]/div/span,stpClick,,10000
+expoPalletDelete,click on delete button,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[8]/button,stpClick,,5000
+expoPalletDelete,click on no button in alert message ,"//span[contains(text(),'No')]",stpClick,,2000
+expoPalletDelete,click on delete button,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[8]/button,click,,5000
+expoPalletDelete,click on yes button in alert message,"//span[contains(text(),'Yes')]",click,,2000
