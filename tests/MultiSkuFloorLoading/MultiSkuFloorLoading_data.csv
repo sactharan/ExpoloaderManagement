@@ -1,2 +1,2 @@
 Test Case ID,Enabled,Description,sku1,itemQuantity1,sku2,itemQuantity2,sku3,itemQuantity3,sku4,itemQuantity4,sku5,itemQuantity5
-MultiSkuFloorLoading,1,Load  3 different SKU,//div[@title='SKU_1_315_220_345'],600,//div[@title='SKU_2_155_180_470'],500,//div[@title='SKU_3_145_95_215'],2500,//div[@title='SKU_2_155_180_470'],150,//div[@title='SKU_3_145_95_215'],288
+multiSkuFloorLoading,1,Load  3 different SKU and 2 same SKU,//div[@title='SKU_1_315_220_345'],600,//div[@title='SKU_2_155_180_470'],500,//div[@title='SKU_3_145_95_215'],2500,//div[@title='SKU_2_155_180_470'],150,//div[@title='SKU_3_145_95_215'],288

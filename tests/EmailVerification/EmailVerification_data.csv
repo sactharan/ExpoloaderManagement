@@ -1,2 +1,2 @@
-Test Case,Enabled,urlsignup,name,email,password,url,gmailid
-EmailVerification,1,https://v-2-1.vercel.app/signin,beast,beastebay292@gmail.com,sasi123@#,https://mail.google.com/mail/u/1/#inbox/FMfcgzGqQckHNbchmrfqbCswpSLjcDfg,beastebay292@gmail.com
+Test Case,Enabled,description,name,email,password,url,gmailid
+emailVerification,1,email verification,Deamon,zabithmohamed4@gmail.com,deamonTageryan1,https://mail.google.com/mail/u/1/#inbox/FMfcgzGqQckHNbchmrfqbCswpSLjcDfg,zabithmohamed4@gmail.com
