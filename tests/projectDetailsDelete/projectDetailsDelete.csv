@@ -1,0 +1,8 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+projectDetailsDelete,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,2000
+projectDetailsDelete,select project,/html/body/div[2]/div/div/ul/li[5]/div/span,stpClick,,10000
+projectDetailsDelete,click the project name,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[1]/a,stpClick,,5000
+projectDetailsDelete,Click Delete user button in the row,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr[1]/td[4]/a,stpClick,,5000
+projectDetailsDelete,click on cancel button in alert message ,"//span[contains(text(),'Cancel')]",stpClick,,2000
+projectDetailsDelete,Click Delete user button in the row,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr[1]/td[4]/a,click,,5000
+projectDetailsDelete,click on OK button in alert message ,"//span[contains(text(),'OK')]",click,,10000
