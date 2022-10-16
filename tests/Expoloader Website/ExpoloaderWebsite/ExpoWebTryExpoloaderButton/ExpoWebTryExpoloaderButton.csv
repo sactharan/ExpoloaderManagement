@@ -1,3 +1,0 @@
-Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoWebTryExpoloaderButton,click try expoloader button under the our features,"//*[@id=""features""]/div[3]/div/button/a",click,,1000
-,,,, ,

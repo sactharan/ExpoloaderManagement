@@ -1,3 +1,0 @@
-Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoWebTwitterLink,go to contact path,"//a[contains(text(),'Contact')]",click,,10000
-ExpoWebTwitterLink,click linedin social link,/html/body/div/section[1]/main/div/section[6]/div/div[2]/div/div/div[1]/div[3]/div[4]/a/div,click,,10000

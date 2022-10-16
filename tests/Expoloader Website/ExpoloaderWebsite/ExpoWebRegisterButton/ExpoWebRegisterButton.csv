@@ -1,2 +1,0 @@
-Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoWebRegisterButton,click register button in the home page,"//a[contains(text(),'Register')]",click,,10000

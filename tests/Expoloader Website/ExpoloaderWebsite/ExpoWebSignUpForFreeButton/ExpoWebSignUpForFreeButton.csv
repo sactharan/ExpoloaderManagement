@@ -1,2 +1,0 @@
-Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoWebSignUpForFreeButton,click sign up for free button in the home page banner,"//*[@id=""top""]/div/div/div/div[4]/div/div/button/a",click,,10000

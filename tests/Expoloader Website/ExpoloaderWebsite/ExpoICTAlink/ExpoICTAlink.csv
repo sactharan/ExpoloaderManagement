@@ -1,2 +1,0 @@
-Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoICTAlink,click ICTA link in the home page,"//*[@id=""sponser""]/div/div[2]/div/a",click,,10000
