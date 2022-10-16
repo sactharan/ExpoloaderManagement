@@ -1,0 +1,5 @@
+Test Case ID,Enabled,Description,addUserButton,email
+projectDetailAddUser,1,no input empty email,/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div/button/span,
+projectDetailAddUser,1,no input duplicate email,NaN,creativelogodesigner124@gmail.com
+projectDetailAddUser,1,no input invalid email,NaN,newuser@gmail
+projectDetailAddUser,1,input valid & non existing,NaN,newuser@gmail.com

@@ -1,0 +1,12 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+projectDetailEditUser,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,2000
+projectDetailEditUser,select project,/html/body/div[2]/div/div/ul/li[5]/div/span,stpClick,,10000
+projectDetailEditUser,click project name in the table,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[1]/a,stpClick,,10000
+projectDetailEditUser,Click edit button,,clickElement,EditUserButton,4000
+projectDetailEditUser,click cancel ,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr[1]/td[3]/span/a[2],stpClick,,3000
+projectDetailEditUser,click cancel in the alert message,/html/body/div[6]/div/div/div/div[2]/div/div[2]/button[1],stpClick,,3000
+projectDetailEditUser,click cancel ,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr[1]/td[3]/span/a[2],stpClick,,3000
+projectDetailEditUser,click ok,/html/body/div[6]/div/div/div/div[2]/div/div[2]/button[2]/span,stpClick,,5000
+projectDetailEditUser,Click edit button,,clickElement,EditUserButton2,4000
+projectDetailEditUser,input email ,email,input,email,2000
+projectDetailEditUser,click save,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr[1]/td[3]/span/a[1],click,,5000
