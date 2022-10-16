@@ -29,3 +29,5 @@ ExpoContainerDelete,Delete container one by one,1,,breakOnFail:1
 expoPalletDeleteAllRecords,Delete pallete all records,1,,breakOnFail:1
 projectDetailAddUser,add user for project details,1,,breakOnFail:1
 projectDetailEditUser,edit existing user for project details,1,,breakOnFail:1
+projectDetailsDelete,project details delete users,1,,breakOnFail:1
+forgetPassword,user forget password test,1,,breakOnFail:1
