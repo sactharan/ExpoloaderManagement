@@ -1,29 +1,31 @@
 Test Case ID,Description,Enabled,Data File (if not specified default file will be searched according to convention),Test Case Parameters
 navExpoLoader,Navigate to expoloader,1,,breakOnFail:1
-SignUpExpo,SignUp to expoloader,0,,breakOnFail:1
-EmailVerification,Email verification,0,,breakOnFail:1
-LoginExpo,Login to expoloader,0,,breakOnFail:1
-ExpoSKUAddNew,Add new sku,0,,breakOnFail:1
-ExpoSKUEdit,Edit sku,0,,breakOnFail:1
-ExpoSKUExportExcel,Export Excel Data,0,,breakOnFail:1
-expoSKUImportExcel,import Excel Data,1,,breakOnFail:1
+SignUpExpo,SignUp to expoloader,1,,breakOnFail:1
+EmailVerification,sign up Email verification,1,,breakOnFail:1
+LoginExpo,Login to expoloader,1,,breakOnFail:1
+ExpoSKUAddNew,Add new sku record,1,,breakOnFail:1
+ExpoSKUEdit,Edit existing sku record,1,,breakOnFail:1
+ExpoSKUExportExcel,Export sku Excel Data,1,,breakOnFail:1
+expoSKUImportExcel,import sku Excel Data,1,,breakOnFail:1
 expoSKUSearch,search the sku's,1,,breakOnFail:1
-ExpoContainerAddNew,Add new container,0,,breakOnFail:1
-ExpoContainerEdit,Edit container,0,,breakOnFail:1
-ExpoContainerExportExcel,Export Excel data,0,,breakOnFail:1
-ExpoContainerSearch,Search container,0,,breakOnFail:1
+ExpoContainerAddNew,Add new container,1,,breakOnFail:1
+ExpoContainerEdit,Edit existing container,1,,breakOnFail:1
+ExpoContainerExportExcel,Export container Excel data,1,,breakOnFail:1
+ExpoContainerSearch,Search container,1,,breakOnFail:1
 expoPalletAddNew,Adding new pallets,1,,breakOnFail:1
 expoPalletEdit,Editing existing pallets ,1,,breakOnFail:1
-expoPalletSearch,search pallete,0,,breakOnFail:1
-expoPalletExportExcel,Export Excel data,1,,breakOnFail:1
-expoPalletImportExcel,import excel data,1,,breakOnFail:1
-FloorLoading,FloorLoading test,0,,breakOnFail:1
-MultiSkuFloorLoading,Multi sku for floor loading,0,,breakOnFail:1
-PalletLoading,pallete laoding,0,,breakOnFail:1
-palletStackMultiItemLoad,Pallete stack multi item loading,0,,breakOnFail:1
-nonStackpalletMultiItemLoad,Non stack pallete multi item loading,0,,breakOnFail:1
+expoPalletSearch,search pallete,1,,breakOnFail:1
+expoPalletExportExcel,Export pallet Excel data,1,,breakOnFail:1
+expoPalletImportExcel,import pallet excel data,1,,breakOnFail:1
+FloorLoading,FloorLoading test,1,,breakOnFail:1
+MultiSkuFloorLoading,add multiple sku's in a single floor load,1,,breakOnFail:1
+PalletLoading,pallet laoding test,1,,breakOnFail:1
+palletStackMultiItemLoad,Pallete stack multiple item loading,1,,breakOnFail:1
+nonStackpalletMultiItemLoad,Non stack pallete multiple item loading,1,,breakOnFail:1
 expoSKUDelete,Delete sku one by one,1,,breakOnFail:1
 expoSKUDeleteAll,Delete All the SKU's records,1,,breakOnFail:1
-expoPalletDelete,Delete pallete records,1,,breakOnFail:1
-ExpoContainerDelete,Delete container,0,,breakOnFail:1
+expoPalletDelete,Delete pallete records one by one,1,,breakOnFail:1
+ExpoContainerDelete,Delete container one by one,1,,breakOnFail:1
 expoPalletDeleteAllRecords,Delete pallete all records,1,,breakOnFail:1
+projectDetailAddUser,add user for project details,1,,breakOnFail:1
+projectDetailEditUser,edit existing user for project details,1,,breakOnFail:1
