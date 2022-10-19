@@ -1,8 +1,8 @@
 Test Case ID,Enabled,description,Name,Width,Length,Height,MaxWeight,SAP ID,Maxlevel,clickClose,SkuHeightLabel,SkuWeightLable
 expoSKUAddNew,1,input valid dimensions & parameeters ,SKU_1_315_220_346,381,381,305,2550,FRX60166,100,NaN,NaN,NaN
-expoSKUAddNew,1,nagative pallet dimensions,SKU_1_315_220_347,-381,-381,-305,-2550,FRX60167,-100,NaN,NaN,NaN
-expoSKUAddNew,1,empty pallet dimensions,,,,,,,,/html/body/div[5]/div/div[2]/div/div[2]/button/span/span,NaN,NaN
-expoSKUAddNew,1, no duplicate pallet name,SKU_1_315_220_346,381,381,305,2550,FRX60166,100,/html/body/div[5]/div/div[2]/div/div[2]/button/span/span,NaN,NaN
+expoSKUAddNew,1,nagative sku dimensions,SKU_1_315_220_347,-381,-381,-305,-2550,FRX60167,-100,NaN,NaN,NaN
+expoSKUAddNew,1,empty sku dimensions,,,,,,,,/html/body/div[5]/div/div[2]/div/div[2]/button/span/span,NaN,NaN
+expoSKUAddNew,1, no duplicate sku name,SKU_1_315_220_346,381,381,305,2550,FRX60166,100,/html/body/div[5]/div/div[2]/div/div[2]/button/span/span,NaN,NaN
 expoSKUAddNew,1,no floating dimension values,SKU_1_315_220_348,381.25,381.25,381.25,381.25,381.25,381.25,NaN,NaN,NaN
 expoSKUAddNew,1,verify sku height label,NaN,NaN,NaN,NaN,NaN,NaN,NaN,/html/body/div[5]/div/div[2]/div/div[2]/button/span/span,SKU HEIGHT(mm),NaN
 expoSKUAddNew,1,verify sku weight  label,NaN,NaN,NaN,NaN,NaN,NaN,NaN,/html/body/div[5]/div/div[2]/div/div[2]/button/span/span,NaN,SKU WEIGHT(mm)
