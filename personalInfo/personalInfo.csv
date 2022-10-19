@@ -1,0 +1,9 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+personalInfo,Click My account,//*[normalize-space(text()) and normalize-space(.)='A'],stpClick,,5000
+personalInfo,Select My account,"//*[@id=""simple-menu""]/div[3]/ul/a",stpClick,,5000
+personalInfo,Enter fullname in the fullname field,"//input[@name=""displayName""]",input,fullname,5000
+personalInfo,Enter the Position,"//input[@name=""Position""]",input,position,5000
+personalInfo,Enter the Phone,"//input[@name=""phoneNumber""]",input,phone,5000
+personalInfo,Enter the Address,"//input[@name=""address""]",input,address,5000
+personalInfo,Click on Savechange,/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div/form/div[2]/div[6]/div/button[1],click,,10000
+personalInfo,Click on Cancel,/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div/form/div[2]/div[6]/div/button[2],click,,10000
