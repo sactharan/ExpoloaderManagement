@@ -1,0 +1,12 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+consignmentEdit,navigate to consigment,,navigate,url,10
+consignmentEdit,click edit button,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[4]/button,click,,2
+consignmentEdit,edit the load name - empty text,Consignment_name,input,loadName,2
+consignmentEdit,edit the remarks - empty text,Consignment_remarks,input,loadRemarks,2
+consignmentEdit,edit the load name ,Consignment_name,input,loadName1,2
+consignmentEdit,edit the remarks,Consignment_remarks,input,loadRemarks1,2
+consignmentEdit,click edit button,//button[@type='submit'],click,,2
+consignmentEdit,click edit button,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[4]/button,click,,2
+consignmentEdit,edit the load name - duplicate text,Consignment_name,input,loadName2,2
+consignmentEdit,edit the remarks - duplicate text,Consignment_remarks,input,loadRemarks2,2
+consignmentEdit,click cancel button,/html/body/div[5]/div/div[2]/div/div[2]/button,click,,2

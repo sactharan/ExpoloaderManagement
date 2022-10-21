@@ -1,5 +1,6 @@
-Test Case ID,Enabled,Description,addUserButton,email
-projectDetailAddUser,1,no input empty email,/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div/button/span,
-projectDetailAddUser,1,no input duplicate email,NaN,creativelogodesigner124@gmail.com
-projectDetailAddUser,1,no input invalid email,NaN,newuser@gmail
-projectDetailAddUser,1,input valid & non existing,NaN,newuser@gmail.com
+Test Case ID,Enabled,Description,url,addUserButton,email
+projectDetailAddUser,1,no input empty email,https://alphav.vercel.app/expoloader/projectpage,/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div/button/span,
+projectDetailAddUser,1,no input duplicate email,NaN,NaN,creativelogodesigner124@gmail.com
+projectDetailAddUser,1,no input invalid email,NaN,NaN,newuser@gmail
+projectDetailAddUser,1,input valid & non existing 1,NaN,NaN,newuser@gmail.com
+projectDetailAddUser,1,input valid & non existing 2,NaN,/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div/button/span,newone@gmail.com

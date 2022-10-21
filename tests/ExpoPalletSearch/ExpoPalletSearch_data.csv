@@ -1,7 +1,7 @@
-Test Case ID,Enabled,Description,search
-expoPalletSearch,1,Test Search by Name,Euro pallet
-expoPalletSearch,1,Test Search by Width,1100
-expoPalletSearch,1,Test Search by Length,1200
-expoPalletSearch,1,Test Search by Pallet Height,100
-expoPalletSearch,1,Test Search by Pallet Weight,1000
-expoPalletSearch,1,Test Search by Max Weight,1000000
+Test Case ID,Enabled,Description,url,search
+expoPalletSearch,1,Test Search by Name,https://alphav.vercel.app/expoloader/palletpage,Euro pallet
+expoPalletSearch,1,Test Search by Width,NaN,1100
+expoPalletSearch,1,Test Search by Length,NaN,1200
+expoPalletSearch,1,Test Search by Pallet Height,NaN,100
+expoPalletSearch,1,Test Search by Pallet Weight,NaN,1000
+expoPalletSearch,1,Test Search by Max Weight,NaN,1000000

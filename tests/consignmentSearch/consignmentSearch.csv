@@ -1,0 +1,5 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+consignmentSearch,navigate to consignement,,navigate,url,10
+consignmentSearch,select consignment,//div[@id='root']/div/div/ul/li[6]/div/span,click,,3
+consignmentSearch,search to pallet,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[2]/span/input,input,searchPallet,4
+consignmentSearch,search to pallet - validating symbol,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[2]/span/input,input,searchPallet1,2

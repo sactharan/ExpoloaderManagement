@@ -1,0 +1,6 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+SignInExpo,nav to sign in ,,navigate,url,5
+SignInExpo,Enter the email in the email field,//input[@name='email'],input,email,2
+SignInExpo,Enter the password in the password field ,//input[@name='password'],input,password,2
+SignInExpo,click on Remember me checkbox,//input[@type='checkbox'],click,,3
+SignInExpo,Click on Register button,//button[@type='submit'],click,,12

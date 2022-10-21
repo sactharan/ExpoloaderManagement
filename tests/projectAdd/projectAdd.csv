@@ -1,0 +1,7 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+projectAdd,click on options,"//*[@id=""__next""]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span",stpClick,,10
+projectAdd,select project,//*[@id='root']/div/div/ul/li[5]/div/span,stpClick,,10
+projectAdd,click add button,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/button/span",click,,10
+projectAdd,Add Name,"//input[@id=""Project_name""]",input,Name,10
+projectAdd,Click add button,"//*[@id=""Project""]/div[2]/div/div/div/div/button",click,,10
+projectAdd,click close model,,clickElement,clickCloseModel,

@@ -1,0 +1,2 @@
+Test Case ID,Enabled,description,url
+consignmentDeleteAllRecords,1,delete all consignments,https://alphav.vercel.app/expoloader/consignmentpage

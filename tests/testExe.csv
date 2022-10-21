@@ -1,0 +1,45 @@
+Test Case ID,Description,Enabled,Data File (if not specified default file will be searched according to convention),Test Case Parameters
+navigation,navigate to ilt website,1,,breakOnFail:1
+SignInExpo,signin to expoloader,1,,breakOnFail:1
+signup,sign up to expoloader,0,,breakOnFail:1
+floorLoading,floorloading optimization,1,,breakOnFail:1
+palletLoading,palleteloading optimization,1,,breakOnFail:1
+floorAndPalletLoading,floor and palleteloading optimization,1,,breakOnFail:1
+multiSkuFloorLoading,multi sku floorloading optimization,1,,breakOnFail:1
+palletStackMultiSkuLoad,pallete stack multi sku loading optimization,1,,breakOnFail:1
+palletNonStackMultiSkuLoad,pallete non stack multi sku loading optimization,1,,breakOnFail:1
+expoSKUAddNew,add new sku,1,,breakOnFail:1
+expoSKUEdit,edit sku,1,,breakOnFail:1
+expoSKUIExportExcel,export excel file,1,,breakOnFail:1
+expoSKUImportExcel,import excel file,1,,breakOnFail:1
+expoSKUSearch,search sku,1,,breakOnFail:1
+expoSKUDelete,delete single sku,1,,breakOnFail:1
+expoSKUDeleteAllRecords,delete all sku records,1,,breakOnFail:1
+expoContainerAddNew,add new container,1,,breakOnFail:1
+expoContainerEdit,edit container,1,,breakOnFail:1
+expoContainerExportExcel,export excel file,1,,breakOnFail:1
+expoContainerImportExcelData,import excel file,1,,breakOnFail:1
+expoContainerSearch,search container,1,,breakOnFail:1
+expoContainerDelete,delete single container,1,,breakOnFail:1
+expoContainerDeleteAllRecords,delete all container records,1,,breakOnFail:1
+expoPalleteAddNew,add new pallete,1,,breakOnFail:1
+expoPalleteEdit,edit pallete,1,,breakOnFail:1
+expoPalleteExportExcel,export excel file,1,,breakOnFail:1
+expoPalleteImportExcel,import excel file,1,,breakOnFail:1
+expoPalleteSearch,search pallete,1,,breakOnFail:1
+expoPalleteDelete,delete single pallete,1,,breakOnFail:1
+expoPalleteDeleteAllRecords,delete all pallete records,1,,breakOnFail:1
+projectAdd,add project,1,,breakOnFail:1
+projectEdit,edit project,1,,breakOnFail:1
+searchProject,search project,1,,breakOnFail:1
+projectDelete,delete project,1,,breakOnFail:1
+projectDeleteAllRecords,delete all projects records,1,,breakOnFail:1
+projectDetailAddUser,add project user,1,,breakOnFail:1
+projectDetailEditUser,edit project user,1,,breakOnFail:1
+projectDetailsDelete,delete project details,1,,breakOnFail:1
+consignmentSearch,search consignments,1,,breakOnFail:1
+consignmentEdit,edit consignments,1,,breakOnFail:1
+consignmentDelete,delete consignments,1,,breakOnFail:1
+consignmentDeleteAllRecords,delete all consignment records,1,,breakOnFail:1
+personalInfo,test personal info in my account,1,,breakOnFail:1
+logout,log out,1,,breakOnFail:1

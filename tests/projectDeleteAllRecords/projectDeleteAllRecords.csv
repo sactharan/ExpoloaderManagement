@@ -1,0 +1,8 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+projectDeleteAllRecords,click on options,"//*[@id=""__next""]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span",stpClick,,10
+projectDeleteAllRecords,select projects,//*[@id='root']/div/div/ul/li[5]/div/span,stpClick,,10
+projectDeleteAllRecords,Delete all Details,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[4]/button/span",stpClick,,10
+projectDeleteAllRecords,click on  nobutton in tos message,"//span[contains(text(),'No')]",stpClick,,10
+projectDeleteAllRecords,Delete all Details,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[4]/button/span",click,,10
+projectDeleteAllRecords,click on  Yes button in tos message,"//span[contains(text(),'Yes')]",click,,10
+,,,,,10

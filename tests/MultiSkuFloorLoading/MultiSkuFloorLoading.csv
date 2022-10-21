@@ -1,25 +1,26 @@
 Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-multiSkuFloorLoading,click on dropdown,"//input[@type=""search""]",stpClick,,2000
-multiSkuFloorLoading,select load type,/html/body/div[5]/div/div/div/div[2]/div[1]/div/div/div[1]/div,stpClick,,2000
-multiSkuFloorLoading,Click on select container,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[1]/div/div[2]/div/div",stpClick,,2000
-multiSkuFloorLoading,Click on  Container,/html/body/div[6]/div/div/div/div[2]/div[1]/div/div/div[1],stpClick,,2000
-multiSkuFloorLoading,Click on select SKU,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div/div/div/div",click,,2000
-multiSkuFloorLoading,Selecting SKU,,clickElement,sku1,5000
-multiSkuFloorLoading,Item Quantity,"//*[@id=""basic_quantity""]",input,itemQuantity1,2000
-multiSkuFloorLoading,Click on add button,//button[@type='submit'],click,,10000
-multiSkuFloorLoading,Click on select SKU,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div/div/div/div",click,,2000
-multiSkuFloorLoading,Selecting SKU,,clickElement,sku2,5000
-multiSkuFloorLoading,Item Quantity,"//*[@id=""basic_quantity""]",input,itemQuantity2,2000
-multiSkuFloorLoading,Click on add button,//button[@type='submit'],click,,10000
-multiSkuFloorLoading,Click on select SKU,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div/div/div/div",click,,2000
-multiSkuFloorLoading,Selecting SKU,,clickElement,sku3,5000
-multiSkuFloorLoading,Item Quantity,"//*[@id=""basic_quantity""]",input,itemQuantity3,2000
-multiSkuFloorLoading,Click on add button,//button[@type='submit'],click,,10000
-multiSkuFloorLoading,Click on select SKU,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div/div/div/div",click,,2000
-multiSkuFloorLoading,Selecting SKU,,clickElement,sku4,5000
-multiSkuFloorLoading,Item Quantity,"//*[@id=""basic_quantity""]",input,itemQuantity4,2000
-multiSkuFloorLoading,Click on add button,//button[@type='submit'],click,,10000
-multiSkuFloorLoading,Click on select SKU,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div/div/div/div",click,,2000
-multiSkuFloorLoading,Selecting SKU,,clickElement,sku5,5000
-multiSkuFloorLoading,Item Quantity,"//*[@id=""basic_quantity""]",input,itemQuantity5,2000
-multiSkuFloorLoading,Click on add button,//button[@type='submit'],click,,10000
+multiSkuFloorLoading,navigate to optimization,,navigate,url,12
+multiSkuFloorLoading,click on dropdown,"//input[@type=""search""]",stpClick,,2
+multiSkuFloorLoading,select load type,/html/body/div[5]/div/div/div/div[2]/div[1]/div/div/div[1]/div,stpClick,,2
+multiSkuFloorLoading,Click on select container,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[1]/div/div[2]/div/div",stpClick,,2
+multiSkuFloorLoading,Click on  Container,/html/body/div[6]/div/div/div/div[2]/div[1]/div/div/div[1],stpClick,,2
+multiSkuFloorLoading,Click on select SKU,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div/div/div/div",click,,2
+multiSkuFloorLoading,Selecting SKU,,clickElement,sku1,5
+multiSkuFloorLoading,Item Quantity,"//input[@id=""basic_quantity""]",input,qty,2
+multiSkuFloorLoading,Click on add button,//button[@type='submit'],click,,10
+multiSkuFloorLoading,Click on select SKU,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div/div/div/div",click,,2
+multiSkuFloorLoading,Selecting SKU,,clickElement,sku2,5
+multiSkuFloorLoading,Item Quantity,/html/body/div[1]/div/div/div/div[1]/div/div/div[1]/div[3]/div[4]/form/div[1]/div[1]/div[2]/div[1]/div/div/div[2]/input,input,itemQuantity2,2
+multiSkuFloorLoading,Click on add button,//button[@type='submit'],click,,10
+multiSkuFloorLoading,Click on select SKU,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div/div/div/div",click,,2
+multiSkuFloorLoading,Selecting SKU,,clickElement,sku3,5
+multiSkuFloorLoading,Item Quantity,/html/body/div[1]/div/div/div/div[1]/div/div/div[1]/div[3]/div[4]/form/div[1]/div[1]/div[2]/div[1]/div/div/div[2]/input,input,itemQuantity3,2
+multiSkuFloorLoading,Click on add button,//button[@type='submit'],click,,10
+multiSkuFloorLoading,Click on select SKU,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div/div/div/div",click,,2
+multiSkuFloorLoading,Selecting SKU,,clickElement,sku4,5
+multiSkuFloorLoading,Item Quantity,/html/body/div[1]/div/div/div/div[1]/div/div/div[1]/div[3]/div[4]/form/div[1]/div[1]/div[2]/div[1]/div/div/div[2]/input,input,itemQuantity4,2
+multiSkuFloorLoading,Click on add button,//button[@type='submit'],click,,10
+multiSkuFloorLoading,Click on select SKU,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div/div/div/div",click,,2
+multiSkuFloorLoading,Selecting SKU,,clickElement,sku5,5
+multiSkuFloorLoading,Item Quantity,/html/body/div[1]/div/div/div/div[1]/div/div/div[1]/div[3]/div[4]/form/div[1]/div[1]/div[2]/div[1]/div/div/div[2]/input,input,itemQuantity5,2
+multiSkuFloorLoading,Click on add button,//button[@type='submit'],click,,10

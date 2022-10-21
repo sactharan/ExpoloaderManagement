@@ -1,6 +1,0 @@
-Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoSKUDelete,click option ,"//*[@id=""__next""]/div/div/div/header/div/div/div[2]/ul/li/div/span",click,,10000
-ExpoSKUDelete,select   SKU ,//*[@id='root']/div/div/ul/li[2]/div/span,click,,10000
-ExpoSKUDelete, delete 1st data,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[8]/button",click,,10000
-ExpoSKUDelete,click yes to delete,//*//button[2]/span,click,,200
-ExpoSKUDelete,verify text in the notification,/html/body/div[6]/div/div/div/div/div/div[1],verifyText,success,200

@@ -1,2 +1,2 @@
-Test Case ID,Enabled,Description
-expoSKUImportExcel,1,import SKU excel data
+Test Case ID,Enabled,Description,url
+expoSKUImportExcel,1,import SKU excel data,https://alphav.vercel.app/expoloader/skupage

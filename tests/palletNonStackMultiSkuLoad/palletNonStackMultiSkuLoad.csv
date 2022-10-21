@@ -1,0 +1,27 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+palletNonStackMultiSkuLoad,navigate to optimization,,navigate,url,10
+palletNonStackMultiSkuLoad,click loading dropdown,/html/body/div[1]/div/div/div/div[1]/div/div/div[1]/div[1]/div/div/div/div/span[1]/input,click,,2
+palletNonStackMultiSkuLoad,select pallet loading,/html/body/div[5]/div/div/div/div[2]/div[1]/div/div/div[2]/div,click,,1
+palletNonStackMultiSkuLoad,click container dropdown,/html/body/div[1]/div/div/div/div[1]/div/div/div[1]/div[1]/div/div[2]/div/div/span[1]/input,click,,1
+palletNonStackMultiSkuLoad,select container,,clickElement,selectContainer,1
+palletNonStackMultiSkuLoad,click pallet dropdown,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[1]/div/div[3]/div/div",click,,1
+palletNonStackMultiSkuLoad,select  pallet,,clickElement,selectPallet,1
+palletNonStackMultiSkuLoad,click pallet stack dropdown,/html/body/div[1]/div/div/div/div[1]/div/div/div[1]/div[2]/div[2]/div,click,,1
+palletNonStackMultiSkuLoad,select non Stackable,,clickElement,selectStackable,1
+palletNonStackMultiSkuLoad,click add pallet button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[4]/button,click,,2
+palletNonStackMultiSkuLoad,click report button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[2]/button,click,,4
+palletNonStackMultiSkuLoad,click create button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button,click,,5
+palletNonStackMultiSkuLoad,click ok button,"//span[contains(text(),'OK')]",stpClick,,5
+palletNonStackMultiSkuLoad,click create button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button,stpClick,,5
+palletNonStackMultiSkuLoad,click cancel button,"//span[contains(text(),'Cancel')]",stpClick,,5
+palletNonStackMultiSkuLoad,click create button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button,click,,2
+palletNonStackMultiSkuLoad,enter loadname in Loadname field -empty text field,basic_name,input,loadEmpty,3
+palletNonStackMultiSkuLoad,click submit button ,/html/body/div[6]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button,click,,4
+palletNonStackMultiSkuLoad,enter loadname in Loadname field-Validating dupliate data,basic_name,input,loadDuplicate,3
+palletNonStackMultiSkuLoad,click submit button,/html/body/div[6]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button,click,,2
+palletNonStackMultiSkuLoad,enter loadname in Loadname field,basic_name,input,loadName,3
+palletNonStackMultiSkuLoad,click submit button,/html/body/div[6]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button,click,,2
+palletNonStackMultiSkuLoad,click update button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button,click,,2
+palletNonStackMultiSkuLoad,update the Loadname,/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[1]/div/div[2]/div/div/input,input,loadUpdate,3
+palletNonStackMultiSkuLoad,click submit button,/html/body/div[6]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button,click,,2
+palletNonStackMultiSkuLoad,click reset button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[1]/button,click,,2

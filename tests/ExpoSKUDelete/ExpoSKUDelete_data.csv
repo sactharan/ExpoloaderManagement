@@ -1,9 +1,4 @@
-Test Case ID,Enabled,description
-expoSKUDelete,1,delete SKU 1
-expoSKUDelete,1,delete SKU 2
-expoSKUDelete,1,delete SKU 3
-expoSKUDelete,1,delete SKU 4
-expoSKUDelete,1,delete SKU 5
-expoSKUDelete,1,delete SKU 6
-expoSKUDelete,1,delete SKU 7
-expoSKUDelete,1,delete SKU 8
+Test Case ID,Enabled,description,,url
+expoSKUDelete,1,delete SKU 1,,https://alphav.vercel.app/expoloader/skupage
+expoSKUDelete,1,delete SKU 2,,NaN
+expoSKUDelete,1,delete SKU 3,,NaN

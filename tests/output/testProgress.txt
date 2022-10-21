@@ -1,0 +1,30 @@
+2022-10-21 00:40:05,328 Ig	floorLoading				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\floorLoading\floorLoading.csv 
+2022-10-21 00:40:05,332 Ig	palletLoading				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\palletLoading\palletLoading.csv 
+2022-10-21 00:40:05,333 Ig	floorAndPalletLoading				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\floorAndPalletLoading\floorAndPalletLoading.csv 
+2022-10-21 00:40:05,345 Ig	expoSKUAddNew				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoSKUAddNew\expoSKUAddNew.csv 
+2022-10-21 00:40:05,347 Ig	expoSKUEdit				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoSKUEdit\expoSKUEdit.csv 
+2022-10-21 00:40:05,348 Ig	expoSKUIExportExcel				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoSKUIExportExcel\expoSKUIExportExcel.csv 
+2022-10-21 00:40:05,350 Ig	expoSKUImportExcelData				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoSKUImportExcelData\expoSKUImportExcelData.csv 
+2022-10-21 00:40:05,360 Ig	expoContainerExportExcel				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoContainerExportExcel\expoContainerExportExcel.csv 
+2022-10-21 00:40:05,360 Ig	expoContainerImportExcelData				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoContainerImportExcelData\expoContainerImportExcelData.csv 
+2022-10-21 00:40:05,361 Ig	expoContainerSearch				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoContainerSearch\expoContainerSearch.csv 
+2022-10-21 00:40:05,361 Ig	expoContainerDelete				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoContainerDelete\expoContainerDelete.csv 
+2022-10-21 00:40:05,362 Ig	expoContainerDeleteAllRecords				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoContainerDeleteAllRecords\expoContainerDeleteAllRecords.csv 
+2022-10-21 00:40:05,363 Ig	expoPalleteAddNew				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoPalleteAddNew\expoPalleteAddNew.csv 
+2022-10-21 00:40:05,363 Ig	expoPalleteEdit				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoPalleteEdit\expoPalleteEdit.csv 
+2022-10-21 00:40:05,364 Ig	expoPalleteExportExcel				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoPalleteExportExcel\expoPalleteExportExcel.csv 
+2022-10-21 00:40:05,365 Ig	expoPalleteImportExcel				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoPalleteImportExcel\expoPalleteImportExcel.csv 
+2022-10-21 00:40:05,366 Ig	expoPalleteSearch				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoPalleteSearch\expoPalleteSearch.csv 
+2022-10-21 00:40:05,366 Ig	expoPalleteDelete				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoPalleteDelete\expoPalleteDelete.csv 
+2022-10-21 00:40:05,368 Ig	expoPalleteDeleteAllRecords				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\expoPalleteDeleteAllRecords\expoPalleteDeleteAllRecords.csv 
+2022-10-21 00:40:05,369 Ig	projectAdd				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\projectAdd\projectAdd.csv 
+2022-10-21 00:40:05,369 Ig	projectEdit				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\projectEdit\projectEdit.csv 
+2022-10-21 00:40:05,370 Ig	searchProject				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\searchProject\searchProject.csv 
+2022-10-21 00:40:05,370 Ig	projectDelete				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\projectDelete\projectDelete.csv 
+2022-10-21 00:40:05,371 Ig	projectDeleteAllRecords				 Steps file not found: D:\MYDOC\ILTWORKS\iltTests\tests\Tests\projectDeleteAllRecords\projectDeleteAllRecords.csv 
+2022-10-21 00:40:39,668 EX    navigation          2,2   Navigated to https://alphav.vercel.app/signin	 
+2022-10-21 00:40:46,654 EX    SignInExpo          2,2   Navigated to https://alphav.vercel.app/signin	 
+2022-10-21 00:40:50,120 EX    SignInExpo          3,2   Entered the text in//input[@name='email']	 
+2022-10-21 00:40:52,920 EX    SignInExpo          4,2   Entered the text in//input[@name='password']	 
+2022-10-21 00:40:56,229 EX    SignInExpo          5,2   Clicked //input[@type='checkbox']	 
+2022-10-21 00:41:08,610 EX    SignInExpo          6,2   Clicked //button[@type='submit']	 

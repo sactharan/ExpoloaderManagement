@@ -1,5 +1,4 @@
 Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-expoPalletSearch,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,2000
-expoPalletSearch,select Pallet,//*[@id='root']/div/div/ul/li[4]/div/span,stpClick,,10000
-expoPalletSearch,input a pallet name,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[5]/span/input,input,search,3000
-expoPalletSearch,Click close icon,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[5]/span/span,click,,3000
+expoPalletSearch,navigate to pallet management url,,navigate,url,3
+expoPalletSearch,input a pallet name,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[5]/span/input,input,search,3
+expoPalletSearch,Click close icon,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[5]/span/span,click,,3

@@ -1,10 +1,12 @@
 Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoContainerEdit,click on options,"//*[@id=""__next""]/div/div/div/header/div/div/div[2]/ul/li/div/span",stpClick,,20000
-ExpoContainerEdit,select  container,//*[@id='root']/div/div/ul/li[3]/div/span,stpClick,,20000
-ExpoContainerEdit,click edit button,//*[@id='__next']/div/div/div/div/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[6]/button/span,stpClick,,10000
-ExpoContainerEdit,Edit Name,"//*[@id=""Container_name""]",input,Name,10000
-ExpoContainerEdit,Edit Width,"//*[@id=""Container_width""]",input,Width,10000
-ExpoContainerEdit,Edit Length,"//*[@id=""Container_length""]",input,Length,10000
-ExpoContainerEdit,Edit Height,"//*[@id=""Container_height""]",input,Height,10000
-ExpoContainerEdit,Edit Max Weight,"//*[@id=""Container_max_weight""]",input,MaxWeight,10000
-ExpoContainerEdit,click edit button,//form[@id='Container']/div[6]/div/div/div/button/span,click,,2000
+expoContainerEdit,navigate to container,,navigate,url,10
+expoContainerEdit,click edit button,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[9]/button",click,,10
+expoContainerEdit,Edit Name,"//*[@id=""Container_name""]",input,Name,5
+expoContainerEdit,Edit Width,"//*[@id=""Container_width""]",input,Width,5
+expoContainerEdit,Edit Length,"//*[@id=""Container_length""]",input,Length,5
+expoContainerEdit,Edit Height,"//*[@id=""Container_height""]",input,Height,5
+expoContainerEdit,Safe Width,"//*[@id=""Container_safe_width""]",input,Safe Width,5
+expoContainerEdit,Safe Length,"//*[@id=""Container_safe_length""]",input,Safe Length,5
+expoContainerEdit,Safe Height,"//*[@id=""Container_safe_height""]",input,Safe Height,5
+expoContainerEdit,MaxWeight,"//*[@id=""Container_max_weight""]",input,MaxWeight,5
+expoContainerEdit,click edit button,"//*[@id=""Container""]/div[9]/div/div/div/div/button/span",click,,10

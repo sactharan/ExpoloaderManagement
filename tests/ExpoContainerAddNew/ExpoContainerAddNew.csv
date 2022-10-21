@@ -1,10 +1,13 @@
 Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoContainerAddNew,click on options,"//*[@id=""__next""]/div/div/div/header/div/div/div[2]/ul/li/div/span",stpClick,,2000
-ExpoContainerAddNew,select containers,//*[@id='root']/div/div/ul/li[3]/div/span,stpClick,,2000
-ExpoContainerAddNew,click add button,//*[@id='__next']/div/div/div/div/div/div[2]/div/button/span,click,,10000
-ExpoContainerAddNew,Add Name,"//*[@id=""Container_name""]",input,Name,2000
-ExpoContainerAddNew,Add Width,"//*[@id=""Container_width""]",input,Width,2000
-ExpoContainerAddNew,Add Length,"//*[@id=""Container_length""]",input,Length,2000
-ExpoContainerAddNew,Add Height,"//*[@id=""Container_height""]",input,Height,2000
-ExpoContainerAddNew,Add Max Weight,"//*[@id=""Container_max_weight""]",input,MaxWeight,2000
-ExpoContainerAddNew,click add button,//*[@id='Container']/div[6]/div/div/div/button/span,click,,10000
+expoContainerAddNew,navigate to container,,navigate,url,10
+expoContainerAddNew,click add button,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/button/span",click,,10
+expoContainerAddNew,add Name,"//*[@id=""Container_name""]",input,Name,5
+expoContainerAddNew,add Width,"//*[@id=""Container_width""]",input,Width,5
+expoContainerAddNew,add Length,"//*[@id=""Container_length""]",input,Length,5
+expoContainerAddNew,add Height,"//*[@id=""Container_height""]",input,Height,5
+expoContainerAddNew,add Safe Width,"//*[@id=""Container_safe_width""]",input,Safe Width,5
+expoContainerAddNew,add Safe Length,"//*[@id=""Container_safe_length""]",input,Safe Length,5
+expoContainerAddNew,add Safe Height,"//*[@id=""Container_safe_height""]",input,Safe Height,5
+expoContainerAddNew,add Max Weight,"//*[@id=""Container_max_weight""]",input,MaxWeight,5
+expoContainerAddNew,click add button,"//*[@id=""Container""]/div[9]/div/div/div/div/button/span",click,,5
+expoContainerAddNew,click close model,/html/body/div[5]/div/div[2]/div/div[2]/button/span/span/svg/path,clickElement,clickCloseModel,5

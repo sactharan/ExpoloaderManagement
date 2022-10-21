@@ -1,2 +1,2 @@
-Test Case ID,Enabled,Description
-expoPalletDeleteAllRecords,1,Test Delete all record
+Test Case ID,Enabled,Description,url
+expoPalletDeleteAllRecords,1,Test Delete all record,https://alphav.vercel.app/expoloader/palletpage

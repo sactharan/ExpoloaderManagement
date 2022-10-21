@@ -1,0 +1,6 @@
+Test Case ID,Enabled,description,url,clickEdit,Name,Width,Length,Height,MaxWeight,SAP ID,Maxlevel
+expoSKUEdit,1,input valid dimensions & parameeters,https://alphav.vercel.app/expoloader/skupage,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/button",SKU_1_315_220_346,381,381,305,2550,FRX60166,100
+expoSKUEdit,1,nagative sku dimensions,NaN,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/button",SKU_1_315_220_347,-381,-381,-305,-2550,FRX60167,-100
+expoSKUEdit,1,empty sku dimensions,NaN,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/button",,,,,,,
+expoSKUEdit,1,no duplicate sku name,NaN,NaN,SKU_1_315_220_346,381,381,305,2550,CCX60166,100
+expoSKUEdit,1,no floating dimension value,NaN,NaN,SKU_1_315_220_348,381.25,381.25,381.25,381.25,381.25,381.25

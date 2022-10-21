@@ -1,0 +1,3 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+logOut,click profile dropdown,/html/body/div[1]/div/div/div/header/div/div[2]/div/div[2]/div/div[2]/div[1],click,,2
+logOut,clicklogout button,/html/body/div[4]/div[3]/ul/li,click,,2

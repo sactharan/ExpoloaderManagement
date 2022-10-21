@@ -1,5 +1,7 @@
 Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoContainerDelete,click on options,//*[@id='__next']/div/div/div/header/div/div/div[2]/ul/li,stpClick,,10000
-ExpoContainerDelete,select containers,//*[@id='root']/div/div/ul/li[3]/div/span,stpClick,,10000
-ExpoContainerDelete,Delete 1 data,//*[@id='__next']/div/div/div/div/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[7]/button/span,click,,10000
-ExpoContainerDelete,Click yes delete,//*//button[2]/span,click,,500
+expoContainerDelete,click on options,//*[@id='__next']/div/div/div/header/div/div/div/div[2]/ul/li/div/span,stpClick,,10
+expoContainerDelete,select containers,//*[@id='root']/div/div/ul/li[3]/div/span,stpClick,,10
+expoContainerDelete,Delete 1 data,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[10]/button/span,stpClick,,10
+expoContainerDelete,delete 1 data no,"//span[contains(text(),'No')]",stpClick,,10
+expoContainerDelete,Delete 1 data,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[10]/button/span,click,,10
+expoContainerDelete,delete data Yes,"//span[contains(text(),'Yes')]",click,,10

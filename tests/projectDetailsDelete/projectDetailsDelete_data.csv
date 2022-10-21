@@ -1,2 +1,2 @@
-Test Case ID,Enabled,description
-projectDetailsDelete,1,delete project detail user 
+Test Case ID,Enabled,description,url
+projectDetailsDelete,1,delete project detail user ,https://alphav.vercel.app/expoloader/projectpage

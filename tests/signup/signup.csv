@@ -1,0 +1,5 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+signup,Enter the Username in the UserName field,mui-1,input,userName,
+signup,Enter the Password in the Password field,mui-2,input,password,
+signup,Click on Login button,"//*[@id=""__next""]/div/div/div/div[1]/div/div[2]/div[1]/form/div[4]/button",click,,10
+signup,Verify text,ox_mib_SignInIL__errors_table,verifyText,errorMsg,

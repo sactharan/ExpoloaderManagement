@@ -1,0 +1,5 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+searchProject,click on options,"//*[@id=""__next""]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span",stpClick,,10
+searchProject,select project,//*[@id='root']/div/div/ul/li[5]/div/span,stpClick,,10
+searchProject,click search ,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[5]/span/input,click,,10
+searchProject,Add Name,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[5]/span/input,input,Name,10

@@ -1,0 +1,25 @@
+Test Case ID,Enabled,url,selectContainer,selectPallet,,selectStackable,loadEmpty,loadDuplicate,loadName
+palletNonStackMultiSkuLoad,1,https://alphav.vercel.app/expoloader/optimizationpage,//div[@title='20ft Standard Container'],//div[@title='Euro pallet'],,//div[@title='Pallet Not Stackable'],,g1,pallet1
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='20ft Standard Container'],//div[@title='Industrial pallet 1'],,//div[@title='Pallet Not Stackable'],,g1,pallet2
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='20ft Standard Container'],//div[@title='Industrial pallet 2'],,//div[@title='Pallet Not Stackable'],,g1,pallet3
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='20ft Standard Container'],//div[@title='Plastic pallet'],,//div[@title='Pallet Not Stackable'],,g1,pallet4
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='20ft High Cube Container'],//div[@title='Euro pallet'],,//div[@title='Pallet Not Stackable'],,g1,pallet5
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='20ft High Cube Container'],//div[@title='Industrial pallet 1'],,//div[@title='Pallet Not Stackable'],,g1,pallet6
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='20ft High Cube Container'],//div[@title='Industrial pallet 2'],,//div[@title='Pallet Not Stackable'],,g1,pallet7
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='20ft High Cube Container'],//div[@title='Plastic pallet'],,//div[@title='Pallet Not Stackable'],,g1,pallet8
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='20ft Reefer Container'],//div[@title='Euro pallet'],,//div[@title='Pallet Not Stackable'],,g1,pallet9
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='20ft Reefer Container'],//div[@title='Industrial pallet 1'],,//div[@title='Pallet Not Stackable'],,g1,pallet10
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='20ft Reefer Container'],//div[@title='Industrial pallet 2'],,//div[@title='Pallet Not Stackable'],,g1,pallet11
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='20ft Reefer Container'],//div[@title='Plastic pallet'],,//div[@title='Pallet Not Stackable'],,g1,pallet12
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='40ft Standard Dry Container'],//div[@title='Euro pallet'],,//div[@title='Pallet Not Stackable'],,g1,pallet13
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='40ft Standard Dry Container'],//div[@title='Industrial pallet 1'],,//div[@title='Pallet Not Stackable'],,g1,pallet14
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='40ft Standard Dry Container'],//div[@title='Industrial pallet 2'],,//div[@title='Pallet Not Stackable'],,g1,pallet15
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='40ft Standard Dry Container'],//div[@title='Plastic pallet'],,//div[@title='Pallet Not Stackable'],,g1,pallet16
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='40ft High Cube Container'],//div[@title='Euro pallet'],,//div[@title='Pallet Not Stackable'],,g1,pallet17
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='40ft High Cube Container'],//div[@title='Industrial pallet 1'],,//div[@title='Pallet Not Stackable'],,g1,pallet18
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='40ft High Cube Container'],//div[@title='Industrial pallet 2'],,//div[@title='Pallet Not Stackable'],,g1,pallet19
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='40ft High Cube Container'],//div[@title='Plastic pallet'],,//div[@title='Pallet Not Stackable'],,g1,pallet20
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='40ft Reefer Container'],//div[@title='Euro pallet'],,//div[@title='Pallet Not Stackable'],,g1,pallet21
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='40ft Reefer Container'],//div[@title='Industrial pallet 1'],,//div[@title='Pallet Not Stackable'],,g1,pallet22
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='40ft Reefer Container'],//div[@title='Industrial pallet 2'],,//div[@title='Pallet Not Stackable'],,g1,pallet23
+palletNonStackMultiSkuLoad,0,NaN,//div[@title='40ft Reefer Container'],//div[@title='Plastic pallet'],,//div[@title='Pallet Not Stackable'],,g1,pallet24

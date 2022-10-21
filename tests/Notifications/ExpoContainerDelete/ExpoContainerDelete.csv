@@ -1,6 +1,0 @@
-Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-ExpoContainerDelete,click on options,//*[@id='__next']/div/div/div/header/div/div/div[2]/ul/li,stpClick,,1000
-ExpoContainerDelete,select containers,//*[@id='root']/div/div/ul/li[3]/div/span,stpClick,,1000
-ExpoContainerDelete,Delete 1 data,//*[@id='__next']/div/div/div/div/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[7]/button/span,click,,1000
-ExpoContainerDelete,Click yes delete,//*//button[2]/span,click,,500
-ExpoContainerDelete,verify text in the notification,/html/body/div[6]/div/div/div/div/div/div[1],verifyText,success,500

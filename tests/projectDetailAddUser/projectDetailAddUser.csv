@@ -1,7 +1,6 @@
 Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-projectDetailAddUser,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,2000
-projectDetailAddUser,select project,/html/body/div[2]/div/div/ul/li[5]/div/span,stpClick,,10000
-projectDetailAddUser,click project name in the table,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[1]/a,stpClick,,10000
-projectDetailAddUser,Click add user button,,clickElement,addUserButton,4000
-projectDetailAddUser,input email ,basic_email,input,email,2000
-projectDetailAddUser,click submit button,/html/body/div[5]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button,click,,5000
+projectDetailAddUser,navigate to project details page,,navigate,url,10
+projectDetailAddUser,click user name in the table,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr/td[1]/a,stpClick,,8
+projectDetailAddUser,Click add user button,,clickElement,addUserButton,4
+projectDetailAddUser,input email ,basic_email,input,email,2
+projectDetailAddUser,click submit button,/html/body/div[5]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button,click,,5

@@ -1,4 +1,3 @@
 Test Case ID,Description,Object,Action,DataColumn,WaitAfter
-expoPalletImportExcel,click on options,/html/body/div[1]/div/div/div/header/div/div[1]/div/div[2]/ul/li/div/span,stpClick,,2000
-expoPalletImportExcel,select pallets,//*[@id='root']/div/div/ul/li[4]/div/span,stpClick,,10000
-expoPalletImportExcel,click Import Excel Data button,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[2]/span/div[1]/span/button/span[2],click,,2000
+expoPalletImportExcel,navigate to pallet management url,,navigate,url,3
+expoPalletImportExcel,click Import Excel Data button,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[2]/span/div[1]/span/button/span[2],click,,2

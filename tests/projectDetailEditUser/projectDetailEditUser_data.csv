@@ -1,6 +1,6 @@
-Test Case ID,Enabled,Description,EditUserButton,EditUserButton2,email
-projectDetailEditUser,1,verify the cancel,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr/td[3]/a,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr/td[3]/a,NaN
-projectDetailEditUser,1,no input empty email,NaN,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr/td[3]/a,
-projectDetailEditUser,1,no input duplicate email,NaN,NaN,newone@gmail.com
-projectDetailEditUser,1,no input invalid email,NaN,NaN,newuserEdited@gmail
-projectDetailEditUser,1,input valid & non existing,NaN,NaN,newuserEdited@gmail.com
+Test Case ID,Enabled,Description,url,EditUserButton,EditUserButton2,email
+projectDetailEditUser,1,verify the cancel,https://alphav.vercel.app/expoloader/projectpage,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr/td[3]/a,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr/td[3]/a,NaN
+projectDetailEditUser,1,no input empty email,NaN,NaN,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div/div/div/div/div/div/div/table/tbody/tr/td[3]/a,
+projectDetailEditUser,1,no input duplicate email,NaN,NaN,NaN,newone@gmail.com
+projectDetailEditUser,1,no input invalid email,NaN,NaN,NaN,newuserEdited@gmail
+projectDetailEditUser,1,input valid & non existing,NaN,NaN,NaN,newuserEdited@gmail.com

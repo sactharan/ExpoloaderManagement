@@ -1,0 +1,6 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+consignmentDeleteAllRecords,navigate to consigment,,navigate,url,10
+consignmentDeleteAllRecords,click all delete button,/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[1]/button,click,,2
+consignmentDeleteAllRecords,click no button,/html/body/div[5]/div/div/div/div[2]/div/div[2]/button[1],click,,2
+consignmentDeleteAllRecords,click all delete button,/html/body/div[1]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[5]/button,click,,2
+consignmentDeleteAllRecords,click yes button,/html/body/div[5]/div/div/div/div[2]/div/div[2]/button[2],click,,2

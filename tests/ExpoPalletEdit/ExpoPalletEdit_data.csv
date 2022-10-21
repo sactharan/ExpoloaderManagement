@@ -1,10 +1,7 @@
-Test Case ID,Enabled,description,Name,Width,Length,Height,Weight,MaxWeight,clickCloseModel,PalletHeightLabel,PalletWeightLabel,MaxWeightLabel
-expoPalletEdit,1,input valid dimensions & parameeters ,Euro pallet updated,1200,1200,100,1000,1000000,NaN,NaN,NaN,NaN
-expoPalletEdit,1,no nagative pallet dimensions,Euro pallet reupdated,-110,-110,-100,-1000,-1000000,NaN,NaN,NaN,NaN
-expoPalletEdit,1,no empty pallet dimensions,,,,,,,/html/body/div[5]/div/div[2]/div/div[2]/button/span/span,NaN,NaN,NaN
-expoPalletEdit,1,no duplicate pallet name,Euro pallet - 1,1200,1200,100,1000,1000000,/html/body/div[5]/div/div[2]/div/div[2]/button/span/span,NaN,NaN,NaN
-expoPalletEdit,1,Length greater than width,Euro Pallet - reupdated 1,1200,800,100,1000,1000000,/html/body/div[5]/div/div[2]/div/div[2]/button/span/span,NaN,NaN,NaN
-expoPalletEdit,1,no floating dimension values,Euro Pallet - reupdated 2,12000.45,12000.45,12000.45,12000.45,12000.45,NaN,NaN,NaN,NaN
-expoPalletEdit,1,verify pallet height label,NaN,NaN,NaN,NaN,NaN,NaN,/html/body/div[6]/div/div[2]/div/div[2]/button/span/span,PALLET HEIGHT(mm),NaN,NaN
-expoPalletEdit,1,verify pallet weight label,NaN,NaN,NaN,NaN,NaN,NaN,/html/body/div[6]/div/div[2]/div/div[2]/button/span/span,NaN,PALLET WEIGHT(g),NaN
-expoPalletEdit,1,verify max weight label,NaN,NaN,NaN,NaN,NaN,NaN,/html/body/div[6]/div/div[2]/div/div[2]/button/span/span,NaN,NaN,MAX WEIGHT(g)
+Test Case ID,Enabled,description,url,clickEdit,Name,Width,Length,Height,Weight,MaxWeight
+expoPalletEdit,1,no nagative pallet dimensions,NaN,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[7]/button",Euro pallet reupdated,-110,-110,-100,-1000,-1000000
+expoPalletEdit,1,no empty pallet dimensions,NaN,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[7]/button",,,,,,
+expoPalletEdit,1,no duplicate pallet name,NaN,NaN,Euro pallet,1200,1200,100,1000,1000000
+expoPalletEdit,1,Length greater than width,NaN,NaN,Euro Pallet - reupdated 1,1200,800,100,1000,1000000
+expoPalletEdit,1,no floating dimension values,NaN,NaN,Euro Pallet - reupdated 2,12000.45,12000.45,12000.45,12000.45,12000.45
+expoPalletEdit,1,input valid dimensions & parameters ,https://alphav.vercel.app/expoloader/palletpage,"//*[@id=""__next""]/div/div/div/div[1]/div/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[7]/button",Euro pallet updated,1200,1200,100,1000,1000000

@@ -1,7 +1,7 @@
-Test Case ID,Enabled,Description,search
-expoSKUSearch,1,Test Search by Name,Euro pallet
-expoSKUSearch,1,Test Search by Width,1100
-expoSKUSearch,1,Test Search by Length,1200
-expoSKUSearch,1,Test Search by Weight,100
-expoSKUSearch,1,Test Search by SAP ID,432KS2DF
-expoSKUSearch,1,Test Search by Max Level,1000
+Test Case ID,Enabled,Description,url,search
+expoSKUSearch,1,Test Search by Name,https://alphav.vercel.app/expoloader/skupage,SKU_2_155_180_470
+expoSKUSearch,1,Test Search by Width,NaN,1100
+expoSKUSearch,1,Test Search by Length,NaN,1200
+expoSKUSearch,1,Test Search by Weight,NaN,100
+expoSKUSearch,1,Test Search by SAP ID,NaN,432KS2DF
+expoSKUSearch,1,Test Search by Max Level,NaN,1000

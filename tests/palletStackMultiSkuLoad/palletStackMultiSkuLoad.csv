@@ -1,0 +1,31 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+palletStackMultiSkuLoad,navigate to optimization,,navigate,url,10
+palletStackMultiSkuLoad,click loading dropdown,/html/body/div[1]/div/div/div/div[1]/div/div/div[1]/div[1]/div/div/div/div/span[1]/input,click,,2
+palletStackMultiSkuLoad,select pallet loading,/html/body/div[5]/div/div/div/div[2]/div[1]/div/div/div[2]/div,click,,1
+palletStackMultiSkuLoad,click container dropdown,/html/body/div[1]/div/div/div/div[1]/div/div/div[1]/div[1]/div/div[2]/div/div/span[1]/input,click,,1
+palletStackMultiSkuLoad,select container,,clickElement,selectContainer,1
+palletStackMultiSkuLoad,click pallet dropdown,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[1]/div/div[3]/div/div",click,,1
+palletStackMultiSkuLoad,select  pallet,,clickElement,selectPallet,1
+palletStackMultiSkuLoad,click pallet dropdown,/html/body/div[1]/div/div/div/div[1]/div/div/div[1]/div[2]/div[2]/div,click,,1
+palletStackMultiSkuLoad,select Stackable,,clickElement,selectStackable,1
+palletStackMultiSkuLoad,click add pallet button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[4]/button,click,,2
+palletStackMultiSkuLoad,click report button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[2]/button,click,,4
+palletStackMultiSkuLoad,click create button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button,click,,3
+palletStackMultiSkuLoad,click ok button,/html/body/div[8]/div/div[2]/div/div[2]/div[3]/button[2],stpClick,,2
+palletStackMultiSkuLoad,click create button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button,stpClick,,2
+palletStackMultiSkuLoad,click cancel button,/html/body/div[6]/div/div[2]/div/div[2]/div[3]/button[1],click,,1
+palletStackMultiSkuLoad,click create button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button,click,,2
+palletStackMultiSkuLoad,enter loadname in Loadname field -empty text field,/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[1]/div/div[2]/div/div/input,input,loadEmpty,3
+palletStackMultiSkuLoad,click submit button ,/html/body/div[6]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button,click,,2
+palletStackMultiSkuLoad,click ok button,//*/html/body/div[6]/div/div[2]/div/div[2]/div[3]/button[2],stpClick,,3
+palletStackMultiSkuLoad,click create button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button,click,,2
+palletStackMultiSkuLoad,enter loadname in Loadname field-Validating dupliate data,/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[1]/div/div[2]/div/div/input,input,loadDuplicate,3
+palletStackMultiSkuLoad,click submit button,/html/body/div[6]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button,click,,2
+palletStackMultiSkuLoad,click ok button,/html/body/div[6]/div/div[2]/div/div[2]/div[3]/button[2],stpClick,,2
+palletStackMultiSkuLoad,click create button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button,click,,2
+palletStackMultiSkuLoad,enter loadname in Loadname field,/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[1]/div/div[2]/div/div/input,input,loadName,3
+palletStackMultiSkuLoad,click submit button,/html/body/div[6]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button,click,,2
+palletStackMultiSkuLoad,click update button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button,click,,2
+palletStackMultiSkuLoad,update the Loadname,/html/body/div[7]/div/div[2]/div/div[2]/div[2]/form/div[1]/div/div[2]/div/div/input,input,loadUpdate,3
+palletStackMultiSkuLoad,click submit button,/html/body/div[6]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button,click,,2
+palletStackMultiSkuLoad,click reset button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[1]/button,click,,2
