@@ -1,0 +1,17 @@
+Test Case ID,Description,Object,Action,DataColumn,WaitAfter
+floorLoading,click on loading type,//input[@id='rc_select_2'],stpClick,,10000
+floorLoading,select load type,/html/body/div[5]/div/div/div/div[2]/div[1]/div/div/div[1]/div,stpClick,,2000
+floorLoading,Click on select container,/html/body/div[1]/div/div/div/div[1]/div/div/div[1]/div[1]/div/div[2]/div/div/span[1]/input,click,,2000
+floorLoading,Select a Container,,clickElement,selectContainer,2000
+floorLoading,Click on select SKU,"//*[@id=""__next""]/div/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div/div/div/div",click,,2000
+floorLoading,Selecting SKU,,clickElement,sku,10000
+floorLoading,Click on add button,//button[@class='ant-btn ant-btn-primary'],click,,10000
+floorLoading,Click create button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button/span,click,,10000
+floorLoading,Enter the Load Name-empty text field,"//*[@id=""basic_name""]",input,loadEmpty,10000
+floorLoading,click submit button,/html/body/div[6]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button/span,click,,10000
+floorLoading,click ok button,/html/body/div[6]/div/div[2]/div/div[2]/div[3]/button[2]/span,click,,10000
+floorLoading,Click create button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button/span,click,,10000
+floorLoading,Enter the Load Name-loadname field,"//*[@id=""basic_name""]",click,loadName,10000
+floorLoading,click submit button,/html/body/div[6]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/div/div/button/span,click,,10000
+floorLoading,click update button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[5]/button/span,click,,10000
+floorLoading,Click on reset button,/html/body/div[1]/div/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div[1]/button/span,click,,2000
